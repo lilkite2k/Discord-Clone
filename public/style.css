@@ -1,0 +1,142 @@
+@font-face {
+    font-family: Regular;
+    src: url(Whitney-Book.otf);
+}
+
+@font-face {
+    font-family: Bold;
+    src: url(Whitney\ Bold.ttf);
+}
+
+@font-face {
+    font-family: RegularBold;
+    src: url(Whitney-Regular-Bold.ttf);
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Regular;
+    background: url(discord-bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.box {
+    max-width: 500px;
+    width: 100%;
+    padding: 45px;
+    border-radius: 5px;
+    background: linear-gradient(to top,#2e3033, #25282b);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.35);
+    box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.35);
+}
+
+.box h1 {
+    font-family: Bold;
+}
+
+.two-sides {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-ui {
+    width: 145px;
+    text-decoration: none;
+}
+
+.link-ui:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.register-box input {
+    padding: 10px;
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    background-color: #1d1f22;
+    border: 1px #131416 solid;
+    font-size: 17px;
+    color: rgb(201, 201, 201);
+    font-family: RegularBold;
+}
+
+.register-box input:focus {
+    outline-style: solid;
+    outline-color: #7d94e6;
+}
+
+.register-box button {
+    width: 100%;
+    padding: 11px 15px;
+    background-color: #7d94e6;
+    border: none;
+    transition: 0.2s ease-in-out;
+    border-radius: 3px;
+    font-family: RegularBold;
+    font-size: 17px;
+    color: white;
+}
+
+.register-box button:focus {
+    outline: none;
+}
+
+.register-box button:hover {
+    background-color: #687ed1;
+    cursor: pointer;
+}
+
+.login-box input {
+    padding: 10px;
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    background-color: #1d1f22;
+    border: 1px #131416 solid;
+    font-size: 17px;
+    color: rgb(201, 201, 201);
+    font-family: RegularBold;
+}
+
+.login-box input:focus {
+    outline-style: solid;
+    outline-color: #7d94e6;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 11px 15px;
+    background-color: #7d94e6;
+    border: none;
+    transition: 0.2s ease-in-out;
+    border-radius: 3px;
+    font-family: RegularBold;
+    font-size: 17px;
+    color: white;
+}
+
+.login-box button:focus {
+    outline: none;
+}
+
+.login-box button:hover {
+    background-color: #687ed1;
+    cursor: pointer;
+}
